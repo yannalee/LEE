@@ -8,7 +8,7 @@ body{
 
 @font-face {
     font-family: myFirstFont;
-    src: url(fonts/DINCond-Regular.otf);
+    src: url(font/DINCond-Regular.otf);
 }
 
 /*.flex-center {
