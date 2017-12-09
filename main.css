@@ -691,3 +691,66 @@ body{
  		opacity: 1;
  	}
  }
+
+ /*info*/
+.aboutme img{
+
+   width: 80%;
+}
+
+
+ #intro {
+  -webkit-font-smoothing: antialiased;
+  text-align: left;
+/*	padding-right: 3em;*/
+/*	padding-right: 3em;*/
+   visibility: hidden;
+   height: 50%;
+   width: 70%;
+   font-size: 1.4em
+}
+
+.slideUp{
+	animation-name: slideUp;
+	-webkit-animation-name: slideUp;	
+
+	animation-duration: 3s;	
+	-webkit-animation-duration: 1.5s;
+
+	animation-timing-function: ease;	
+	-webkit-animation-timing-function: ease;
+
+	visibility: visible !important;			
+}
+
+@keyframes slideUp {
+	0% {
+		transform: translateY(30%);
+	}
+	50%{
+		transform: translateY(-5%);
+	}
+	65%{
+		transform: translateY(4%);
+	}		
+	100% {
+		transform: translateY(0%);
+	}	
+}
+
+@-webkit-keyframes slideUp {
+	0% {
+		-webkit-transform: translateY(100%);
+	}
+	50%{
+		-webkit-transform: translateY(-8%);
+	}
+	65%{
+		-webkit-transform: translateY(4%);
+	}			
+	100% {
+		-webkit-transform: translateY(0%);
+	}	
+}
+
+
