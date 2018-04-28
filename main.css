@@ -39,11 +39,11 @@ body{
 
 /* HOME PAGE */ /* HOME PAGE */ /* HOME PAGE */ /* HOME PAGE */ /* HOME PAGE */
 #home, #info {
-	top: 0;
+	/*top: 0;
 	left: 0;
 	height: 100%;
 	width: 100%;
-	position: absolute;
+	position: absolute;*/
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -53,6 +53,9 @@ body{
   /*background-size: 100% 100%;*/
 }
 
+#home {
+	overflow: hidden;
+}
 
 
 /* work page and yanna page*/
@@ -170,13 +173,13 @@ body{
 
 .homepage-middle {
 	width: 100%;
-	flex: 1;
+	/*flex: 1;*/
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 .homepage-middle img {
-	width: 40%;
+	/*width: 40%;*/
 	/*position: absolute;
   top: 0px;
   bottom: 0px;
@@ -356,9 +359,9 @@ body{
 			padding-bottom: 1em;
 		}
 
-		.homepage-middle img {
+		/*.homepage-middle img {
 			width: 75%;
-		}
+		}*/
 
 		.middle p {
 			color: #ffffff;
@@ -451,22 +454,58 @@ body{
 
 }
 
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+}
 
- #container {
+.column-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 500px;
+}
+.flower-svg{
+	margin-bottom: auto;
+}
+
+.flower-svg, .planet-svg {
+	transform: translateX(-20px);
+}
+
+.woman-svg{
+	transform: translateX(-60px);
+}
+
+#planet {
+	border: 2px solid #32757E;
+	width: 160px;
+	height: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#day {
+	color: #32757E;
+}
+
+ /*#container {
 	position: absolute;
     top: 50%;
  	left: 50%;
  	height: 30%;
- 
  	-webkit-transform: translate(-50%, -50%);
  	transform: translate(-50%, -50%);
- }
+ }*/
  
 
 
  /*info*/
 .aboutme img{
-
    width: 80%;
 }
 
