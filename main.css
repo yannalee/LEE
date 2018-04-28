@@ -57,6 +57,46 @@ body{
 	overflow: hidden;
 }
 
+.container {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.woman-svg {
+  transform: translateX(-60px);
+}
+
+#planet {
+    border: 2px solid #32757E;
+    width: 160px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#day {
+    color: #32757E;
+}
+
+
+.column-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+}
+
+.flower-svg, .planet-svg {
+    transform: translateX(-20px);
+}
+
+.flower-svg {
+    margin-bottom: auto;
+}
 
 /* work page and yanna page*/
 #work, #yanna {
